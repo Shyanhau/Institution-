@@ -1,0 +1,17 @@
+---
+:source:
+  :path: test
+  :file: test_Institution.c
+:successes: []
+:failures:
+- :test: test_Institution_reverse_in_one_institution_only
+  :line: 28
+  :message: Memory Mismatch. Byte 0 Expected 0xA4 Was 0xC1. Function 'Stack_push'
+    called with unexpected value for argument 'stack'.
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 0
+  :failed: 1
+  :ignored: 0
+:stdout: []
